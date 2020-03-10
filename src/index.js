@@ -1,9 +1,9 @@
 module.exports = function reverse(n) {
-    let str;
+    let string;
 
-    str = String(Math.abs(n))
+    string = String(Math.abs(n))
         .split("")
         .reverse()
         .join("");
-    return str;
+    return string;
 };
